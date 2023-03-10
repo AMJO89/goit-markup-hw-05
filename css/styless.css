@@ -113,14 +113,13 @@ header .logo{
   text-decoration: none;
 }
 
-.menu-list:hover{
+.menu-list:hover {
   color: var(--accent-color);
 }
 
-.menu-list:focus{
+.menu-nav li .menu-list:focus {
   color: var(--accent-color);
 }
-
 
 /*contact nav*/
 
@@ -167,7 +166,6 @@ header .logo{
 .contact-h svg{
   margin-right: 10px;
 }
-
 
 .contact-h{
   color: var(--color-text-secundary);
@@ -323,37 +321,24 @@ main p.text{
   justify-content: space-between;
 }
 
-.li-what div{
-  width: 373.16px;
-  height: 323.7px;
-  overflow: hidden;
+.ul-what img{
+  width: 370px;
+  height: 294px;
+}
+
+.title-img {
   position: relative;
-}
-
-.li-what div img{
-  z-index: 1;
-}
-
-.li-what .tittle-img{
+  bottom: 70px;
   width: 370px;
   height: 70px;
-  left: 215px;
-  top: 1435px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
+  line-height: 70px;
   text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-background-color);
+  color: white;
   background: rgba(47, 48, 58, 0.8);
-  padding: 27px 70px;
-  position: absolute;
-  z-index: 2;
 }
-
 
 /*Our team*/
 
@@ -662,15 +647,15 @@ fill: var(--primary-background-color);
   background: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
   position: absolute;
+  transform: translatey(100%); /* % positivo es de abajo hacia arriba en el eje y*/
 }
 
 .cards-li:hover .card-overlap{
   top: 0;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translatey(0);
 }
-
-
 
 
 
