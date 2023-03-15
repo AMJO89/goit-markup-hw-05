@@ -122,9 +122,9 @@ a .menu-list .current:visited{
 }
 
 
-a .menu-list:hover,
-a .menu-list:focus,
-a .menu-list .current {
+.menu-list:hover,
+.menu-list:focus,
+.menu-list .current {
   color: var(--accent-color);
 }
 
