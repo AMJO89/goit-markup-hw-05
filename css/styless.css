@@ -109,14 +109,26 @@ header .logo{
   height: 80px;
   color: var(--color-tex-primary);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
-.menu-list:hover,
-.menu-list:focus {
+a .menu-list .current:visited{
   color: var(--accent-color);
 }
 
-.menu-list:hover::after{
+
+a .menu-list:hover,
+a .menu-list:focus,
+a .menu-list .current {
+  color: var(--accent-color);
+}
+
+.current::after{
   position: absolute;
   content: "";
   left: 0;
@@ -430,10 +442,15 @@ main p.text{
   background-color: var(--primary-background-color);
   text-align: center;
   list-style: none;
+  background: #F5F4FA;
+}
+
+.info-team .team-li{
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
   0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   border: 1px solid #eeeeee;
   cursor: pointer;
+  background: var(--primary-background-color);
 }
 
 .main-our h3 {
