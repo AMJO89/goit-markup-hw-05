@@ -117,10 +117,9 @@ header .logo{
   text-transform: capitalize;
 }
 
-a .menu-list .current:visited{
+.menu-list .current:visited{
   color: var(--accent-color);
 }
-
 
 .menu-list:hover,
 .menu-list:focus,
