@@ -121,8 +121,8 @@ header .logo{
   color: var(--accent-color);
 }
 
-.menu-list:focus,
 .menu-list:hover,
+.menu-list:focus,
 .menu-list .current {
   color: var(--accent-color);
 }
@@ -255,6 +255,7 @@ main h2 {
   flex-direction: row;
   align-items: center;
   text-align: center;
+  content: ;
 }
 
 .main-tittle h1{
